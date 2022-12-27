@@ -1,0 +1,16 @@
+.matchInfoGridContainer{
+    display: grid;
+    grid-template-rows: 50px repeat(8,1fr);
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.matchInfoGridContainer.quarterFinal{
+    grid-template-rows: 50px repeat(4,2fr);
+}
+.matchInfoGridContainer.semiFinal{
+    grid-template-rows: 50px repeat(2,4fr);
+}
+.matchInfoGridContainer.final{
+    grid-template-rows: 50px 1fr;
+}

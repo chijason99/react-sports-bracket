@@ -1,0 +1,27 @@
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: hsl(210, 64%, 38%);
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.btn:hover{
+    background-color: hsl(210, 64%, 48%);
+    cursor: pointer;
+}
+.btn.danger{
+    background-color: hsl(0,71.8%,47.3%);
+}
+.btn.danger:hover{
+    background-color: hsl(0,71.8%,57.3%);
+}
+.editMatchInfoBtnContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 10px;
+}

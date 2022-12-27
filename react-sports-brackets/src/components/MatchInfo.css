@@ -1,0 +1,50 @@
+.matchInfoTableContainer{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 12px;
+    height: 100px;
+    position: relative;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.matchInfoTable{
+    text-align: center;
+    padding: 5px 10px;
+}
+.matchInfoTableContainer.active{
+    outline: 5px solid green;
+}
+.matchInfoTable th{
+    padding: 5px 10px;
+}
+
+.matchInfoTableContainer .btn{
+    margin-top: 5px;
+}
+
+.loser{
+    color: grey;
+}
+
+.btnContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.btnContainer:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}

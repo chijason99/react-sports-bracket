@@ -1,0 +1,24 @@
+@import './components/CreateBracketForm.css';
+@import './components/Buttons.css';
+@import './components/MatchInfo.css';
+@import './components/RoundColumn.css';
+@import './components/EditMatchInfo.css';
+@import './components/ScoreContainer.css';
+
+
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+.columnGridContainer{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
